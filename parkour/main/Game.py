@@ -31,7 +31,7 @@ class Game:
     @staticmethod
     def __create_game_objects():
         floor_positions: list[tuple[int, int, int]] \
-            = [(0, 0, 0), (1, 1, 0), (3, 2, 0)]
+            = [(0, 0, 0), (1, 1, 0), (3, 2, 0), (5, 4, 0), ]
         floor_position: tuple[int, int, int]
         for floor_position in floor_positions:
             Floor(floor_position)
